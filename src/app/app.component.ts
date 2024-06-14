@@ -22,6 +22,7 @@ import { RemoveallComponent } from './components/removeall/removeall.component';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
+  title = 'toDo';
   tasks: Task[] = [];
   selectedTasks: Task[] = [];
   currentYear: number = new Date().getFullYear();
