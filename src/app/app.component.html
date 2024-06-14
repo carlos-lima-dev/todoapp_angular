@@ -1,17 +1,12 @@
-<!-- app.component.html -->
 <header>
     <app-header></app-header>
 </header>
 <div class="content">
-
     <app-todo-list [tasks]="tasks" (taskToggled)="toggleCompletion($event)"
-        (taskDeleted)="deleteTask($event)"></app-todo-list>
+        (taskRemoved)="deleteTask($event)"></app-todo-list>
     <app-add-task (taskAdded)="addTask($event)"></app-add-task>
     <app-removeall (tasksRemove)="removeSelectedTasks()"></app-removeall>
-
-
 </div>
 <footer>
     <app-footer class="footer" [currentYear]="currentYear"></app-footer>
-
 </footer>

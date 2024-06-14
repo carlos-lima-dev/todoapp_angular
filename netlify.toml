@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  publish = "dist/todoapp/browser"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/server"
+  status = 200
