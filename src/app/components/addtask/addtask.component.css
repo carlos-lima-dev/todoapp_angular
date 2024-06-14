@@ -1,0 +1,23 @@
+.add {
+  display: block;
+  padding: 1rem 0rem 1rem 0rem;
+}
+
+button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #218838;
+}
+input[type="text"] {
+  outline: none;
+  padding: 10px 16px;
+}
